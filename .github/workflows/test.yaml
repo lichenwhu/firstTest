@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: deploy file to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.0 
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:  
           username: 'root'   #ssh user name
           server: '${{ secrets.SERVER_IP }}' #引用之前创建好的secret
