@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to qcloud
+    name: Deploy to qcloud by sftp
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
