@@ -20,4 +20,4 @@ jobs:
           ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }} #引用之前创建好的secret
           password: wbdWBD222
           local_path: '.*'
-          remote_path: '/root/mytest1'
+          remote_path: '/root/mytest1/'
